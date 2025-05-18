@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   // Determine puzzle number
   const p = new URLSearchParams(location.search).get('p')?.padStart(2, '0') || '01';
-  const IMG = `images/puzzle${p}.jpg`;
+  const IMG = `Images/puzzle${p}.jpg`;
 
   // Compute tile size
   const PUZZLE_DIM = puzzle.clientWidth;
